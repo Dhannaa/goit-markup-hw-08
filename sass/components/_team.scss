@@ -1,9 +1,13 @@
 .section--background {
   background-color: $secondary-bg-color;
 }
-.team-card {
+
+@media screen and (min-width: 768px) {
+  .team-card {
   display: flex;
 }
+}
+
 .team-card__item {
   width: calc((100% -3 * 30px) / 4);
   background: $primary-white-color;
